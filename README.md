@@ -451,6 +451,8 @@ documented above. Non-dry-run callers keep their existing outcome shapes.
 
 ## API Reference
 
+> **0.x API Policy & Deprecations:** During `0.x`, this package adheres to an **additive-only within minor** policy (`0.1.x` releases are additive and fixes only; breaking changes and deprecation removals occur only at minor boundaries like `0.2.0`). For full policy details, deprecation mechanics, and the tracking table, see [`docs/deprecations.md`](docs/deprecations.md). Release process and versioning checklist: [`docs/releasing.md`](docs/releasing.md).
+
 ### Interception & Execution
 
 - `PreFlightInterceptor`
